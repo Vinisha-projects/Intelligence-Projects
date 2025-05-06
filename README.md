@@ -1,11 +1,11 @@
 
-# 📈 Simple Anomaly Detector
+#  Light Anomaly Detector
 
 This module detects anomalies in numeric data using the standard deviation method. It's designed as a reusable, lightweight analytics component in Business Intelligence (BI) pipelines for identifying extreme outliers in metric-based data.
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Automatically detects outliers based on configurable standard deviation thresholds (default: 2σ).
 - Visualizes normal vs anomalous data points using `matplotlib`.
@@ -14,13 +14,13 @@ This module detects anomalies in numeric data using the standard deviation metho
 
 ---
 
-## 📊 Example Use Case
+##  Example Use Case
 
 Detect revenue spikes, failed login attempts, unusual traffic patterns, or sensor data deviations.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 simple_anomaly_detector/
@@ -35,7 +35,7 @@ simple_anomaly_detector/
 ---
 
 
-## ⚙️ How It Works
+##  How It Works
 
 1. Reads a CSV file from `data/sample_data.csv`.
 2. Calculates:
@@ -49,7 +49,7 @@ simple_anomaly_detector/
 
 ---
 
-## 🖼 Example Output
+##  Example Output
 
 - Blue points = Normal values
 - Red points = Anomalies
@@ -58,7 +58,7 @@ simple_anomaly_detector/
 
 ---
 
-## 🧾 Requirements
+##  Requirements
 
 Install the following dependencies:
 
@@ -68,7 +68,7 @@ pip install pandas matplotlib numpy
 
 ---
 
-## 🧠 Customization
+##  Customization
 
 - You can change the sensitivity threshold (default is `2` standard deviations):
 
@@ -80,7 +80,7 @@ threshold = 3  # more strict (fewer anomalies)
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - Ensure the `data/` directory exists.
 - The script ignores non-numeric values automatically.
@@ -88,7 +88,7 @@ threshold = 3  # more strict (fewer anomalies)
 
 ---
 
-## 📬 Feedback
+##  Feedback
 
 Feel free to open an issue or submit a pull request if you'd like to enhance this module!
 
